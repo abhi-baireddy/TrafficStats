@@ -31,7 +31,7 @@ def get_times(place1, place2):
     :return: estimated time of travel from origin to destination
     """
     url = "https://maps.googleapis.com/maps/api/distancematrix/json?&origins=" + place1 + "&destinations="+ place2
-    key = "&key=AIzaSyBVZPWIxC_dNu74gXZOaMxisuwA5HI3TOc"
+    key = ""
     data = get_data(url+key)
     if data:
         t = data["duration"]["text"]
