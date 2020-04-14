@@ -28,7 +28,7 @@ def get_coordinates(place):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print('Usage: gecode.py "<name of the place>". Don\'miss the quotes if place has '
+        print('Usage: gecode.py "<name of the place>". Don\'t miss the quotes if place has '
               'more than one word.')
         exit(0)
 
